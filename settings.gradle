@@ -1,0 +1,8 @@
+rootProject.name = 'ms-test-practice'
+include 'service'
+project(':service').projectDir = file('./service')
+
+include 'discovery'
+project(':discovery').projectDir = file('./discovery')
+
+
